@@ -1414,4 +1414,9 @@ public class ArcMenu extends RelativeLayout {
 	public void showTooltip(boolean l){
 		mArcLayout.showTooltip(l);
 	}
+
+	public void setOnMenuItemOpenClose(ArcLayout.OnMenuItemOpenClose l){
+		mArcLayout.setOnMenuItemOpenClose(l);
+	}
+
 }
